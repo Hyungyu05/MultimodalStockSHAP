@@ -1,0 +1,20 @@
+defaults:
+  - data: polygon
+  - model: lstm
+  - _self_
+
+project_name: "MultimodalStockSHAP"
+
+training:
+  epochs: 50
+  batch_size: 32
+  learning_rate: 1e-3
+  seed: 42
+  test_split: 0.2
+  
+# 출력 설정
+output_dir: "outputs"
+save_model: true
+
+# API 키 (환경 변수)
+api_key: ${oc.env:POLYGON_API_KEY}

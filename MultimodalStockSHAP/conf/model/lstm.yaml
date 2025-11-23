@@ -1,0 +1,5 @@
+input_size: 7         # OHLCV(5) + Sentiment(1) + News_Count(1) ⭐
+hidden_size: 64
+num_layers: 2
+dropout: 0.2
+output_size: 1

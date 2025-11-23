@@ -1,0 +1,8 @@
+ticker: "META"
+start_date: "2024-01-01"
+end_date: "2025-01-01"
+window_size: 10
+news_limit: 10000000       # 충분히 크게 (날짜당 샘플링하므로)
+max_per_day: 10        # 날짜당 최대 분석 개수 ⭐
+
+batch_size: 32
