@@ -6,7 +6,7 @@
 
 ## 🎯 특징
 
-- **멀티모달 입력**: OHLCV(5) + FinBERT Sentiment(1) = 6 features
+- **멀티모달 입력**: OHLCV(5) + FinBERT Sentiment(1) + News_Count = 7 features
 - **Many-to-One LSTM**: 시계열 입력 → 스칼라 출력 (다음날 종가)
 - **SHAP 분석**: Feature별 예측 기여도 규명
 - **Hydra 설정 관리**: YAML로 모든 파라미터 관리
